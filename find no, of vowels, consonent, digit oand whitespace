@@ -1,0 +1,29 @@
+a=input("enter st")
+v=0
+c=0 
+d=0
+s=0
+vowel="a,e,i,o,u,A,E,I,O,U"
+digit="0123456789"
+x=" "
+for i in a:
+    if i in vowel:
+        v=v+1
+    elif i.isalpha() and i not in vowel:
+        c=c+1
+    elif i.isdigit():
+        d=d+1
+    elif i in x:
+        s=s+1
+    else:
+        pass
+print(v)
+print(c)
+print(d)
+print(s)
+
+
+
+
+
+    
